@@ -30,7 +30,7 @@ lv -= 2
 if prepromolv >= 10:
     while True:    
         promolv = int(input("What is Lowen's promoted level?"))
-        if promolv >= 1 and promolv <= 20:
+        if promolv >= 0 and promolv <= 20:
             break
 
     lv += promolv
